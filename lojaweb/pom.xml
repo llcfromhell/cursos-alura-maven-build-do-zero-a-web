@@ -16,11 +16,22 @@
 		</dependency>
 		
 		<!-- http://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+		
+		
+		<!-- http://mvnrepository.com/artifact/br.com.caelum.stella/caelum-stella-core -->
 		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>3.1.0</version>
+			<groupId>br.com.caelum.stella</groupId>
+			<artifactId>caelum-stella-core</artifactId>
+			<version>2.1.2</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>net.lorenscode</groupId>
+			<artifactId>produtos</artifactId>
+			<version>1.0-SNAPSHOT</version>
+			
+		</dependency>
+
 
 	</dependencies>
 

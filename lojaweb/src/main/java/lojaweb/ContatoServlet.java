@@ -9,11 +9,15 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import net.lorenscode.Produto;
+
 @WebServlet(urlPatterns="/contato")
 public class ContatoServlet extends HttpServlet {
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
+		Produto produto = new Produto("novo", 10.0);
 		
 		PrintWriter writer = resp.getWriter();
 		
