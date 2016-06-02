@@ -1,0 +1,1 @@
+mvn archetype:generate -D"artifactId=produtos" -D"groupId=br.com.alura.maven" -D"interactiveMode=false" -D"archetypeArtifactId=maven-archetype-quickstart"
